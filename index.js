@@ -42,6 +42,7 @@ document.getElementById('p3').innerHTML = "Enrolled " + student+ "!"
 */
 
 
+
 // Day 1 Arithmetic Topic
 /**
  * Arithmetic expression is combination of...
@@ -51,6 +52,7 @@ document.getElementById('p3').innerHTML = "Enrolled " + student+ "!"
  * ex. y = x + 5;
  */
 
+/*
 let age=19;
 
 age +=1;
@@ -65,8 +67,30 @@ console.log(age)
     2. exponints
     3. multuplication & divition
     4. addition & subtraction
-*/
+
 
 let result = 1+2*(3+4);
 
 console.log(result);
+*/
+
+
+//________________________________________________________________
+// Day 2 How to accept user input
+
+// EASY WAY WITH A WINDOW PROMPT
+/*let username = window.prompt("What is your name?");
+console.log(username);*/
+
+
+//DIFFICULT WAY "THE HTML TEXTBOX"
+/*let username;
+
+document.getElementById("myButton").onclick=function(){
+
+    username = document.getElementById("myText").value;
+    console.log(username);
+
+    document.getElementById("myLable").innerHTML = username;
+}
+*/
